@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box; /* Apply border-box to all elements */
+      }
+
+      .container {
+        width: 300px;
+        height: 300px;
+        border: 2px solid;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: green;
+        padding: 0 12px; /* Add padding to the container */
+      }
+
+      .container img {
+        width: 40%;
+        height: 40%;
+        object-fit: contain; /* Ensures the image maintains its aspect ratio */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./assets/icons/account-group.svg" alt="Account Group Icon" />
+      <img src="./assets/icons/account-group.svg" alt="Account Group Icon" />
+    </div>
+  </body>
+</html>
